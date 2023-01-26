@@ -61,8 +61,8 @@ public class Farm {
         return "Farm{" +
                 "address='" + address + '\'' +
                 ", OwnerName='" + OwnerName + '\'' +
-                ", cows=" + Arrays.toString(cows) +
-                ", sheeps=" + Arrays.toString(sheeps) +
+                ", cows=" + Arrays.toString(cows) +"\n"+
+                ", sheeps=" + Arrays.toString(sheeps) +"\n"+
                 ", horses=" + Arrays.toString(horses) +
                 '}';
     }

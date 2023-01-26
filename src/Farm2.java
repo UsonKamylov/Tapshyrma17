@@ -57,8 +57,8 @@ public class Farm2 {
     public String toString() {
         return "Farm{" +
                 "address='" + address + '\'' +
-                ", cows=" + cows +
-                ", horses=" + horses +
+                ", cows=" + cows +"\n"+
+                ", horses=" + horses +"\n"+
                 ", sheep=" + sheep +
                 ", ownerName='" + ownerName + '\'' +
                 '}';
