@@ -19,9 +19,9 @@ public class Main {
         System.out.println(farm1.toString());
 
 
-        Cow cow = new Cow(115, 4, "sing along", "Holstein");
-        Sheep sheep = new Sheep(55, 3, "sing along", "Cartoon");
-        Horse horse = new Horse(167,4, "Black", "male", "Skakun");
+        Cow cow = new Cow(115, 4, "Buka", "Karaa ala");
+        Sheep sheep = new Sheep(55, 3, "kochkor", "kok kara");
+        Horse horse = new Horse(167,4, "Black", "jen", "Jerde");
         Farm2 farm2 = new Farm2("ул. Pushkina", cow, horse, sheep, "Bakyt");
         System.out.println(farm2.toString());
 
